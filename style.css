@@ -1,4 +1,35 @@
+#sidebar {
+  position: fixed;
+  width: 150px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #486A6E;
+}
 
+#sidebar-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+a:hover #sidebar-pic {
+  opacity: 0.5;
+}
+
+.list-vertical {
+  font-size: 40px;
+  list-style: none;
+  color:
+}
+
+.sidebar-button-style {
+  color: #0F283B;
+}
+
+a:hover .sidebar-button-style {
+  color:#C0BCB5;
+}
 
 .container {
   width: 500px;
@@ -86,12 +117,18 @@ a:hover .icon-colour {
     width: 500px;
   }
 }
+
 @media (max-width: 540px) {
   .container {
     width: 90%;
   }
+
   .img-size {
     width: 80px;
+  }
+
+  #sidebar {
+    display: none;
   }
 }
 
